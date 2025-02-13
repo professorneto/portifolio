@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-image: url('imagens/logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        p {
+            /* border: 1px solid red; */
+            border-width: 1px;
+            border-style: solid;
+            border-color: blue;
+        }
+
+        h1 {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
 
@@ -47,6 +72,24 @@
         </div>
 
     </header>
+
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
 
 </div>
     
