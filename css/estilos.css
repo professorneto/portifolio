@@ -80,7 +80,7 @@
 #interface .cabecalho .menu ul li a {
     display: block;
     font-family: Oswald;
-    color: var (--azul-padrao) ;
+    color: var(--branco-padrao) ;
     font-size: 2rem;
     padding: .5rem 1rem;
     text-decoration: none;
