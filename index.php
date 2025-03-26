@@ -147,7 +147,7 @@
 
                 <aside class="dados-contato">
                     <h4 class="title-aside">Endereço</h4>
-                    <p class="txt-aside">Rua das Margaridas, S/Nº - Centro - Manhuaçu/MG</p>
+                    <p class="txt-aside">Rua das Margaridas, S/Nº<br />Centro - Manhuaçu/MG</p>
 
                     <h4 class="title-aside">Telefone</h4>
                     <p class="txt-aside">33 3331-3333</p>
@@ -160,12 +160,20 @@
 
                 <form action="" method="POST">
 
-                    <input type="text" name="nome" id="nome" placeholder="Nome*" required />
-                    <input type="email" name="email" id="email" placeholder="E-Mail*" required />
-                    <input type="text" name="assunto" id="assunto" placeholder="Assunto" />
-                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                    <div class="line-form">
+                        <input type="text" name="nome" id="nome" placeholder="Nome*" required />
+                        <input type="email" name="email" id="email" placeholder="E-Mail*" required />
+                    </div>
 
-                    <input type="submit" value="Envia mensagem" />
+                    <div class="line-form">
+                        <input type="text" name="assunto" id="assunto" placeholder="Assunto" />
+                    </div>
+
+                    <div class="line-form">
+                        <textarea name="mensagem" id="mensagem" rows="7" placeholder="Escreva Sua Mensagem*" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensagem</button>
 
                 </form>
 
@@ -173,8 +181,66 @@
 
         </section>
 
-
     </main>
+
+    <footer id="rodape">
+
+        <div class="container-rodape">
+
+            <section class="sobre">
+
+                <img src="imagens/logo.png" alt="Logo" />
+
+                <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt nulla minima hic atque quos.</p>
+
+                <h4 class="title-sobre">Siga-nos</h4>
+
+                <div class="social-icons">
+                    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </section>
+
+            <section class="servicos">
+
+                <h4 class="title-servicos">Serviços</h4>
+
+                <ul>
+                    <li><a href="#">Desenvolvimento WEB</a></li>
+                    <li><a href="#">WEB Hosting</a></li>
+                    <li><a href="#">Mídias Sociais</a></li>
+                    <li><a href="#">Aplicações SEO</a></li>
+                    <li><a href="#">Computação em Nuvem</a></li>
+                    <li><a href="#">Segurança de Dados</a></li>
+                </ul>
+
+            </section>
+
+            <section class="contato">
+
+                <h4 class="title-contato">Contatos</h4>
+
+                <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                <p class="txt-contatos">33 9 8400-9999</p>
+                <p class="txt-contatos">contato@meusite.com.br</p>
+
+                <h4 class="title-contato">Newsletter</h4>
+                <form action="" method="GET">
+                    <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
+
+                    <button type="submit"><i class="fab fa-telegram"></i></button>
+                </form>
+
+            </section>
+
+        </div>
+
+        <p class="txt-creditos">Geraldo Cezário Neto &copy; 2025</p>
+
+    </footer>
 
 </div>
     
