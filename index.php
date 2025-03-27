@@ -1,248 +1,533 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifólio</title>
-
-    <link rel="stylesheet" href="tools/fontawesome/css/all.css" />
-    <link rel="stylesheet" href="css/estilos.css" />
-
-</head>
-<body>
-
-<div id="interface">
-
-    <header class="cabecalho">
-
-        <nav class="menu">
-
-            <div class="logo">
-                <img src="imagens/logo.png" alt="LOGO" />
-            </div>
-
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Restrito</a></li>
-            </ul>
-
-        </nav>
-        
-        <div class="titles"> <!-- ========================= -->
-            <div class="container-titles">
-                <h1 class="titulo">Entregando Serviços de Qualidade</h1>
-                <h1 class="subtitulo">Soluções em TI</h1>
-
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae rerum, necessitatibus quod quaerat mollitia.</p>
-                
-            </div>
-
-            <div class="socialIcons">
-                <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div> <!-- ========================== -->
-        
-    </header>
-
-    <!-- ========================================================= -->
-
-    <main id="corpo">
-
-        <section class="servicos">
-
-            <article class="servico">
-                <img src="imagens/service-design.svg" alt="Design">
-                <h3 class="title-servico">Desenvolvimento WEB</h3>
-                <p class="text-servico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis omnis, voluptas error impedit consectetur vitae.</p>
-            </article>
-            <article class="servico">
-                <img src="imagens/service-hosting.svg" alt="Hosting">
-                <h3 class="title-hosting">WEB Hosting</h3>
-                <p class="text-servico">Possimus vel temporibus deleniti repudiandae in similique unde necessitatibus odit corporis nihil soluta, ad repellendus?</p>
-            </article>
-            <article class="servico">
-                <img src="imagens/service-social.svg" alt="Social Media">
-                <h3 class="title-servico">Mídias Sociais</h3>
-                <p class="text-servico">Earum mollitia a, quaerat magni dignissimos, sint velit libero minus magnam saepe perferendis aspernatur? Libero!</p>
-            </article>
-            <article class="servico">
-                <img src="imagens/service-seo.svg" alt="SEO">
-                <h3 class="title-servico">Aplicações SEO</h3>
-                <p class="text-servico">Maiores aliquid sequi expedita. Rerum itaque nihil maxime at explicabo similique recusandae saepe magnam a!</p>
-            </article>
-            <article class="servico">
-                <img src="imagens/service-cloud.svg" alt="Cloud">
-                <h3 class="title-servico">Computação em Nuvem</h3>
-                <p class="text-servico">Provident velit fuga consequuntur quae, iste accusamus repellendus, officiis quibusdam, odio doloribus voluptates iusto perspiciatis.</p>
-            </article>
-            <article class="servico">
-                <img src="imagens/service-secure.svg" alt="Security">
-                <h3 class="title-servico">Segurança de Dados</h3>
-                <p class="text-servico">Expedita illo fugit error in quidem qui, architecto eligendi quae, perspiciatis modi non ab aliquid.</p>
-            </article>
-
-        </section>
-
-        <section class="portifolio">
-
-            <h3 class="title-portifolio">Nosso Portifólio</h3>
-            <p class="sub-title">Lorem ipsum dolor sit amet.</p>
-
-            <div class="container-imagens">
-                <a href="#" class="img" style="background-image: url('imagens/product-1.jpg');">
-                    
-                </a>
-                <a href="#" class="img" style="background-image: url('imagens/product-2.jpg');">
-                    
-                </a>
-                <a href="#" class="img" style="background-image: url('imagens/product-3.jpg');">
-                    
-                </a>
-                <a href="#" class="img" style="background-image: url('imagens/product-4.jpg');">
-                    
-                </a>
-                <a href="#" class="img" style="background-image: url('imagens/product-5.jpg');">
-
-                </a>
-                <a href="#" class="img" style="background-image: url('imagens/product-6.jpg');">
-                    
-                </a>
-            </div>
-
-        </section>
-
-        <section class="banner">
-
-            <hgroup class="container-texto">
-
-                <h4 class="title-banner">Saiba mais sobre nossos Projetos</h4>
-
-                <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat similique, placeat maxime odio voluptas ducimus pariatur libero accusamus, ad aperiam quis et repellendus cupiditate nostrum.</p>
-
-                <a href="#" class="btn-banner">Saiba mais</a>
-
-            </hgroup>
-
-        </section>
-
-        <section class="sobre">
-
-
-
-        </section>
-
-        <section class="contato">
-
-            <h3 class="title-contato">Fale conosco</h3>
-            <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-
-            <div class="container-contato">
-
-                <aside class="dados-contato">
-                    <h4 class="title-aside">Endereço</h4>
-                    <p class="txt-aside">Rua das Margaridas, S/Nº<br />Centro - Manhuaçu/MG</p>
-
-                    <h4 class="title-aside">Telefone</h4>
-                    <p class="txt-aside">33 3331-3333</p>
-                    <p class="txt-aside">33 9 8400-9999</p>
-
-                    <h4 class="title-aside">E-Mail</h4>
-                    <p class="txt-aside">contato@meusite.com.br</p>
-                    <p class="txt-aside">faleconosco@meusite.com.br</p>
-                </aside>
-
-                <form action="" method="POST">
-
-                    <div class="line-form">
-                        <input type="text" name="nome" id="nome" placeholder="Nome*" required />
-                        <input type="email" name="email" id="email" placeholder="E-Mail*" required />
-                    </div>
-
-                    <div class="line-form">
-                        <input type="text" name="assunto" id="assunto" placeholder="Assunto" />
-                    </div>
-
-                    <div class="line-form">
-                        <textarea name="mensagem" id="mensagem" rows="7" placeholder="Escreva Sua Mensagem*" required></textarea>
-                    </div>
-
-                    <button type="submit">Enviar mensagem</button>
-
-                </form>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer id="rodape">
-
-        <div class="container-rodape">
-
-            <section class="sobre">
-
-                <img src="imagens/logo.png" alt="Logo" />
-
-                <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt nulla minima hic atque quos.</p>
-
-                <h4 class="title-sobre">Siga-nos</h4>
-
-                <div class="social-icons">
-                    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-
-            </section>
-
-            <section class="servicos">
-
-                <h4 class="title-servicos">Serviços</h4>
-
-                <ul>
-                    <li><a href="#">Desenvolvimento WEB</a></li>
-                    <li><a href="#">WEB Hosting</a></li>
-                    <li><a href="#">Mídias Sociais</a></li>
-                    <li><a href="#">Aplicações SEO</a></li>
-                    <li><a href="#">Computação em Nuvem</a></li>
-                    <li><a href="#">Segurança de Dados</a></li>
-                </ul>
-
-            </section>
-
-            <section class="contato">
-
-                <h4 class="title-contato">Contatos</h4>
-
-                <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
-                <p class="txt-contatos">33 9 8400-9999</p>
-                <p class="txt-contatos">contato@meusite.com.br</p>
-
-                <h4 class="title-contato">Newsletter</h4>
-                <form action="" method="GET">
-                    <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
-
-                    <button type="submit"><i class="fab fa-telegram"></i></button>
-                </form>
-
-            </section>
-
-        </div>
-
-        <p class="txt-creditos">Geraldo Cezário Neto &copy; 2025</p>
-
-    </footer>
-
-</div>
-    
-</body>
-</html>
+:root {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    --azul-padrao: #3C6AA6;
+    --rosa-padrao: #9941BF;
+    --branco-padrao: #fafafa;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: baseline;
+}
+
+#interface {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--branco-padrao);
+}
+
+#interface header.cabecalho {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/hero-bg.png);
+    background-size: cover;
+    color: var(--branco-padrao);
+}
+
+#interface .cabecalho .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+#interface .cabecalho .menu .logo {
+    display: block;
+    width: 150px;
+}
+
+#interface .cabecalho .menu .logo img {
+    display: block;
+    width: 100%;
+}
+
+#interface .cabecalho .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#interface .cabecalho .menu ul li {
+    display: block;
+    margin: 0 1rem;
+}
+
+#interface .cabecalho .menu ul li a {
+    display: block;
+    font-family: Oswald;
+    color: var(--branco-padrao) ;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+
+#interface .cabecalho .menu ul li a::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: var(--rosa-padrao);
+    border-radius: 1px;
+    margin-top: .5rem;
+    transition: width .2s ease;
+}
+
+#interface .cabecalho .menu ul li:hover a::after {
+    width: 100%;
+}
+
+#interface .cabecalho .titles {
+    flex-grow: 1; /* REFERE-SE AO FLEX DO CABECALHO */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#interface .cabecalho .titles .container-titles {
+    width: 60%;
+    margin: 0 0 0 auto;
+}
+
+#interface .cabecalho .titles .container-titles h1 {
+    font-family: Montserrat;
+}
+
+#interface .cabecalho .titles .container-titles h1.titulo {
+    font-size: 2.5rem;
+}
+
+#interface .cabecalho .titles .container-titles h1.subtitulo {
+    color: var(--rosa-padrao);
+    text-shadow: 0 0 20px rgba(255,255,255,.3);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+#interface .cabecalho .titles .container-titles p.paragrafo {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+#interface .cabecalho .titles .socialIcons {
+    width: 60%;
+    margin: 2rem 0 0 auto;
+}
+
+#interface .cabecalho .titles .socialIcons a {
+    /* color: #3C6AA6; */
+    color: var(--rosa-padrao);
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+/* ======================================================= */
+
+#interface #corpo {
+    display: block;
+    width: 100%;
+}
+
+/* ======================================================= */
+
+#interface #corpo .servicos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+#interface #corpo .servicos article {
+    display: block;
+    width: 30%;
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+#interface #corpo .servicos article img {
+    display: block;
+    width: 35%;
+    margin: 0 auto 2rem auto;
+}
+
+#interface #corpo .servicos article h3 {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    color: var(--azul-padrao);
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#interface #corpo .servicos article p {
+    display: block;
+    text-align: center;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* ======================================================= */
+#interface #corpo .portifolio {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+#interface #corpo .portifolio .title-portifolio {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Roboto;
+    color: var(--azul-padrao);
+    margin-bottom: 1rem;
+}
+
+#interface #corpo .portifolio .sub-title {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #A66B49;
+}
+
+#interface #corpo .portifolio .container-imagens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+#interface #corpo .portifolio .container-imagens .img {
+    width: 30%;
+    height: 180px;
+    margin-top: 1.5rem;
+    border-radius: .75rem;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0,0,0,.4);
+    background-size: 100%;
+    background-position: center center;
+    transition: all .2s ease;
+}
+
+#interface #corpo .portifolio .container-imagens .img:hover {
+    background-size: 120%;
+}
+
+/* ======================================================= */
+#interface #corpo .banner {
+    display: block;
+    width: 100%;
+    background-image: url(../imagens/hero-bg.png);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#interface #corpo .banner .container-texto {
+    display: block;
+    width: 100%;
+    padding: 6rem 0;
+    text-align: center;
+    color: var(--branco-padrao);
+    background-color: rgba(0,0,0,.6);
+}
+
+#interface #corpo .banner .container-texto .title-banner {
+    display: block;
+    width: 60%;
+    margin: 3rem auto;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+#interface #corpo .banner .container-texto .txt-banner {
+    display: block;
+    width: 60%;
+    margin: 3rem auto;
+    line-height: 1.5;
+}
+
+#interface #corpo .banner .container-texto .btn-banner {
+    background-color: var(--azul-padrao);
+    color: var(--branco-padrao);
+    padding: 1rem 3rem;
+    margin: 5rem auto;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+#interface #corpo .banner .container-texto .btn-banner:hover {
+    background-color: #2B5995;
+}
+
+/* ======================================================= */
+#interface #corpo .contato {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+#interface #corpo .contato .title-contato {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Roboto;
+    color: var(--azul-padrao);
+    margin-bottom: 1rem;
+}
+
+#interface #corpo .contato .sub-title {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #A66B49;
+}
+
+#interface #corpo .contato .container-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+#interface #corpo .contato .container-contato .dados-contato {
+    display: block;
+    width: 30%;
+    color: #333;
+}
+
+#interface #corpo .contato .container-contato .dados-contato .title-aside {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin: 2rem 0 .5rem 0;
+}
+
+#interface #corpo .contato .container-contato .dados-contato .txt-aside {
+    display: block;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+#interface #corpo .contato .container-contato form {
+    display: block;
+    width: 70%;
+}
+
+#interface #corpo .contato .container-contato form .line-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#interface #corpo .contato .container-contato form .line-form input {
+    width: 48%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.03);
+}
+
+#interface #corpo .contato .container-contato form .line-form input#assunto {
+    width: 100%;
+}
+
+#interface #corpo .contato .container-contato form .line-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.03);
+    resize: none;
+}
+
+#interface #corpo .contato .container-contato form button {
+    background-color: var(--azul-padrao);
+    color: var(--branco-padrao);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+#interface #corpo .contato .container-contato form button:hover {
+    background-color: #2B5995;
+}
+
+/* ======================================================= */
+#interface #rodape {
+    display: block;
+    width: 100%;
+    background-image: url(../imagens/hero-bg.png);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#interface #rodape .sombreamento {
+    display: block;
+    width: 100%;
+    background-color: rgba(0,0,0,.9);
+    padding: 7rem 0;
+}
+
+#interface #rodape .sombreamento .container-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#interface #rodape .sombreamento .container-rodape .item-rodape {
+    display: block;
+    width: 30%;
+    color: var(--branco-padrao);
+}
+
+#interface #rodape .sombreamento .container-rodape .sobre img {
+    display: block;
+    width: 150px;
+    margin-bottom: 3rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .sobre .txt-sobre {
+    display: block;
+    font-size: .9rem;
+    line-height: 2;
+    margin-bottom: 3rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .sobre .title-sobre {
+    display: block;
+    color: var(--azul-padrao);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: Roboto;
+    font-weight: normal;
+    text-shadow: 0 0 2px rgba(255,255,255,.2);
+}
+
+#interface #rodape .sombreamento .container-rodape .sobre .social-icons a {
+    color: var(--branco-padrao);
+    width: 1.2rem;
+    margin-right: .75rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .servicos .title-servicos {
+    display: block;
+    color: var(--azul-padrao);
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-family: Roboto;
+    font-weight: normal;
+    text-shadow: 0 0 2px rgba(255,255,255,.2);
+}
+
+#interface #rodape .sombreamento .container-rodape .servicos ul {
+    display: block;
+    width: 100%;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+#interface #rodape .sombreamento .container-rodape .servicos ul li {
+    display: block;
+    width: 100%;
+    padding: .5rem 0;
+}
+
+#interface #rodape .sombreamento .container-rodape .servicos ul li a {
+    color: var(--branco-padrao);
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato .title-contato {
+    display: block;
+    color: var(--azul-padrao);
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-family: Roboto;
+    font-weight: normal;
+    text-shadow: 0 0 2px rgba(255,255,255,.2);
+}
+
+#interface #rodape .sombreamento .container-rodape .contato .container-contato {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato .container-contato .txt-contatos {
+    display: block;
+    width: 100%;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato form input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: .9rem;
+    border-radius: 2rem;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato form button {
+    display: block;
+    background-color: transparent;
+    margin-left: -35px;
+}
+
+#interface #rodape .sombreamento .container-rodape .contato form button i {
+    color: var(--azul-padrao);
+    font-size: 2.75rem;
+}
+
+#interface #rodape .sombreamento .txt-creditos {
+    display: block;
+    width: 60%;
+    margin: 5rem auto 0 auto;
+    color: var(--branco-padrao);
+    font-size: .9rem;
+}
