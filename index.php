@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="tools/fontawesome/css/all.css" />
     <link rel="stylesheet" href="css/estilos.css" />
 
+    <script src="tools/jquery/jquery.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.menu a').click(function(e) {
+                $('#servicos').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
 </head>
 <body>
 
@@ -23,7 +33,7 @@
 
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#">Portifólio</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
@@ -55,7 +65,7 @@
 
     <main id="corpo">
 
-        <section class="servicos">
+        <section id="servicos" class="servicos">
 
             <article class="servico">
                 <img src="imagens/service-design.svg" alt="Design">
