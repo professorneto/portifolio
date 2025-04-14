@@ -11,11 +11,7 @@
     <script src="tools/jquery/jquery.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $('.menu a').click(function(e) {
-                $('#servicos').scrollIntoView({ behavior: 'smooth' });
-            });
-        });
+        
     </script>
 
 </head>
@@ -32,12 +28,12 @@
             </div>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Restrito</a></li>
+                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#servicos"><i class="fas fa-tasks"></i>Serviços</a></li>
+                <li><a href="#"><i class="fas fa-photo-video"></i>Portifólio</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i>Sobre</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i>Contato</a></li>
+                <li><a href="area_restrita/"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
             </ul>
 
         </nav>
